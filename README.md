@@ -36,6 +36,6 @@ az vm extension set \
   --name customScript \
   --publisher Microsoft.Azure.Extensions \
   --version 2.1 \
-  --settings '{"fileUris":["https://raw.githubusercontent.com/MicrosoftDocs/mslearn-welcome-to-azure/master/configure-nginx.sh"]}' \
+  --settings '{"fileUris":["https://github.com/rgjtokiota/Az_Nginx/blob/main/configure-nginx.sh"]}' \
   --protected-settings '{"commandToExecute": "./configure-nginx.sh"}'
 
